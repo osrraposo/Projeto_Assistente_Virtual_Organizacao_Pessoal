@@ -1,11 +1,50 @@
-# Projeto_Assistente_Virtual_Organizacao_Pessoal
-Introdução:
+# Assistente Virtual de Organização Pessoal
 
-Este assistente virtual auxilia na organização pessoal do usuário, incluindo a funcionalidade de chat para auxiliar na busca por melhores práticas de como realizar tarefas e se organizar. O assistente permite adicionar e gerenciar tarefas, lembretes e eventos, além de fornecer dicas e sugestões personalizadas para otimizar a rotina do usuário.
+Protótipo em Python criado para explorar organização pessoal e integração com inteligência artificial em um notebook do Google Colab.
 
-Funcionalidades:
+## Funcionalidades
 
-Adicionar, visualizar, editar e excluir: Tarefas, Lembretes e Eventos.
+O protótipo permite:
 
-Possui um chat bot que busca lhe auxiliar com questões: Como organizar melhor o meu dia? ou Como lidar com as minhas urgências?
-E você pode interagir com o bot para que ele busque melhores práticas relacionadas à organização pessoal e produtividade.
+- cadastrar, visualizar, editar e excluir tarefas;
+- cadastrar, visualizar, editar e excluir lembretes;
+- cadastrar, visualizar, editar e excluir eventos;
+- conversar com um assistente sobre organização pessoal e produtividade.
+
+## Tecnologias
+
+- Python
+- Google Colab
+- Google Generative AI
+- Pandas
+
+## Como executar
+
+1. Abra o notebook no Google Colab.
+2. Configure uma chave de API no gerenciador de segredos do Colab com o nome `SECRET_KEY`.
+3. Execute as células na ordem apresentada.
+4. Inicie o menu interativo do assistente.
+
+> A chave de API não deve ser inserida diretamente no notebook nem enviada ao GitHub.
+
+## Estrutura
+
+- `Projeto_Assistente_Virtual_Organizacao_Pessoal.ipynb`: implementação e demonstração do protótipo.
+- `README.md`: apresentação e instruções do projeto.
+
+## Estado do projeto
+
+Este é um projeto de estudo. Algumas funções ainda precisam de revisão e testes, e a persistência dos dados ocorre somente durante a execução do notebook.
+
+## Melhorias planejadas
+
+- corrigir e testar as operações de edição;
+- separar as funções do menu interativo;
+- validar datas e entradas do usuário;
+- adicionar persistência em arquivo ou banco de dados;
+- atualizar a integração com o modelo de IA;
+- criar testes automatizados.
+
+## Autor
+
+Thiago Santos — [@osrraposo](https://github.com/osrraposo)
